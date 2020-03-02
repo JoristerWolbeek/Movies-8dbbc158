@@ -8,7 +8,7 @@ CREATE TABLE movies (
     Trailer varchar(255) 
 );
 INSERT INTO movies (titel, duur, uitkomstDatum, landVanAfkomst, omschrijving, Trailer)
-VALUES ("SONIC: The Hedhehog", "93 minuten", DATE("2017-06-15"), "USA" "After discovering a small, blue, fast hedgehog, a small-town police officer must help it defeat an evil genius who wants to do experiments on it." "=4mW9FE5ILJs");
+VALUES ("SONIC: The Hedhehog", "93 minuten", DATE("2017-06-15"), "USA" "After discovering a small, blue, fast hedgehog, a small-town police officer must help it defeat an evil genius who wants to do experiments on it.", "=4mW9FE5ILJs");
 
 INSERT INTO movies (titel, duur, uitkomstDatum, landVanAfkomst, omschrijving, Trailer)
 VALUES ("De Club van Sinterklaas", "85 minuten", DATE("2010-11-11"), "NL", "A horror film that depicts St. Nicholas as a murderous bishop who kidnaps and murders children when there is a full moon on December 5.", "=Xv3G70mm18k");
