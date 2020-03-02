@@ -5,7 +5,7 @@ CREATE TABLE movies (
     uitkomstDatum DATE,
     landVanAfkomst varchar(255) NOT NULL,
     omschrijving varchar(255) NOT NULL,
-    Trailer varchar(255) 
+    Trailer varchar(255) NOT NULL
 );
 INSERT INTO movies (titel, duur, uitkomstDatum, landVanAfkomst, omschrijving, Trailer)
 VALUES ("SONIC: The Hedhehog", "93 minuten", DATE("2017-06-15"), "USA" "After discovering a small, blue, fast hedgehog, a small-town police officer must help it defeat an evil genius who wants to do experiments on it.", "=4mW9FE5ILJs");
